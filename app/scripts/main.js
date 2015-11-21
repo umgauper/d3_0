@@ -1,6 +1,6 @@
 'use strict';
 
-  d3.csv('../data/Ozone_ppm_1990-2014.csv', function(error, dataset) { //data loading fine...
+d3.csv('/d3_0/app/data/Ozone_ppm_1990-2014.csv', function(error, dataset) { //data loading fine...
     if (error) {
       console.log(error)
     }
@@ -122,7 +122,7 @@
 });
 //end janwillemtulp.com code
 
-d3.csv('../data/greenhouse_gases.csv', function(error, dataset) {
+d3.csv('/d3_0/app/data/greenhouse_gases.csv', function(error, dataset) {
 
   var data = dataset,
       year = 2008,
